@@ -84,7 +84,7 @@
      * Frames per second.
      * @const
      */
-    var FPS = 60;
+    var FPS = 90;
 
     /** @const */
     var IS_HIDPI = window.devicePixelRatio > 1;
@@ -104,18 +104,18 @@
      */
     Runner.config = {
         ACCELERATION: 0.001,
-        BG_CLOUD_SPEED: 0.2,
+        BG_CLOUD_SPEED: 1,
         BOTTOM_PAD: 10,
         CLEAR_TIME: 3000,
-        CLOUD_FREQUENCY: 0.5,
+        CLOUD_FREQUENCY: 10.5,
         GAMEOVER_CLEAR_TIME: 750,
-        GAP_COEFFICIENT: 0.6,
-        GRAVITY: 0.6,
-        INITIAL_JUMP_VELOCITY: 12,
+        GAP_COEFFICIENT: 0.9,
+        GRAVITY: 0.9,
+        INITIAL_JUMP_VELOCITY: 18,
         INVERT_FADE_DURATION: 12000,
         INVERT_DISTANCE: 700,
         MAX_BLINK_COUNT: 3,
-        MAX_CLOUDS: 6,
+        MAX_CLOUDS: 60,
         MAX_OBSTACLE_LENGTH: 3,
         MAX_OBSTACLE_DUPLICATION: 2,
         MAX_SPEED: 13,
